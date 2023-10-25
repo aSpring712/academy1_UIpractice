@@ -1,0 +1,68 @@
+<!DOCTYPE HTML> 
+<html>
+    <head> <!-- 페이지 상단 -->
+        <link rel="shortcut icon" href="favicon.ico">
+        <link rel="icon" href="favicon.ico"> <!-- bird 파비콘 적용 -->
+        <title>Welcome to Ronnie World</title>
+
+        <meta http-equiv="content-type" content="text/html; charset=utf-8">
+        <meta name="viewport" content="user-scalable=no, width=device-width"/>
+        
+        <link href="common.css" rel="stylesheet" type="text/css">
+        <link href="mobile.css" rel="stylesheet" type="text/css" media="screen and (max-width:799px)">
+        <link href="desktop_pc.css" rel="stylesheet" type="text/css" media="screen and (min-width:800px)">
+    </head>
+            <div class="head">
+                <header> <!-- 사이트 제목, 로고 등 -->
+                    <div class="imgbox"><img src="bird.png"></div>
+                    <h1>Ronnie's House</h1> <!-- 오른쪽에 absolute로 그림 박을 것 -->
+                    <nav> 
+                        <a href="main.html" target="_self">[HOME]</a> | 
+                        <a href="Log_In.html" target="_self">[Log In]</a> | 
+                        <a href="Join.html" target="_self">[Join]</a> 
+                    </nav>
+                </header>
+            </div>
+    <body> 
+        <form>
+            <fieldset>
+                <legend><h2>회원 가입</h2></legend>
+                <p>아 이 디 : <input type="text" name="id" required> <input type="button" value="ID 중복검사"></p> 
+                <p> 비밀번호 : <input type="password" name="psw" size="15" placeholder="비밀번호" required></p>
+                <p> 비밀번호 재확인 : <input type="password" name="psw" size="15" placeholder="똑같이 입력해주세요" required> <input type="button" value="일치 확인"></p>
+                <p>생년월일 : <input type="date" name="birthdate"></p>
+                <p>성 &nbsp;&nbsp;&nbsp;&nbsp;별 : <input type="radio" name="sex" value="male"> 남성 <input type="radio" name="sex" value="female"> 여성</p>
+                <p>E-mail&nbsp;&nbsp;&nbsp;&nbsp;: <input type="email" name="email"> </p>
+                <p>블로그/홈페이지 : <input type="url" name="user_url"></p>
+                <p>메일수신 : <input type="radio" name="accept" value="accept"> 수신동의 <input type="radio" name="accept" value="refuse"> 수신거부</p>
+                <p>핸 드 폰 &nbsp;: 
+                    <select name="phone">
+                        <option value="010" selected>010</option>
+                        <option value="011">011</option>
+                        <option value="016">016</option>
+                        <option value="017">017</option>
+                        <option value="018">018</option>
+                        <option value="019">019</option>
+                    </select> - 
+                    <input type="tel" size="4" name="mdphno"> - <input type="tel" size="4" name="lstphno"></p>
+                <p>직 &nbsp;&nbsp;&nbsp;&nbsp;업 &nbsp;:
+                    <select name="job">
+                        <option value="1" selected>학생</option>
+                        <option value="2">사무직</option>
+                        <option value="3">전문직</option>
+                        <option value="4">기술직</option>
+                        <option value="6">무직</option>
+                    </select> </p>
+                <p>취 &nbsp;&nbsp;&nbsp;&nbsp;미 &nbsp;: <input type="checkbox" name="hobby"> 쇼핑 <input type="checkbox" name="hobby"> 인터넷 <input type="checkbox" name="hobby"> 음악감상 <input type="checkbox" name="hobby"> 독서 <input type="checkbox" name="hobby"> 스포츠 <input type="checkbox" name="hobby"> 기타 <input type="text"> </p>
+                <p>자기 소개 : <textarea rows="5" cols="50"></textarea></p>
+            </fieldset>
+            <p></p>
+            <input type="submit" value="등록"> <input type="reset" value="다시 작성">
+        </form>
+        <footer> <!-- 페이지 하단 -->
+            <small>Copyright &copy; Ronning_goo Corp. All rights reserved. &reg; 2021
+                <a href="mailto:rnjsqhal2001@naver.com?subject=Ronnie's House 웹페이지 피드백">Feedback</a>
+            </small>
+        </footer>
+    </body> 
+</html>

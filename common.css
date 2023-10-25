@@ -1,0 +1,75 @@
+@charset "utf-8";
+@font-face {
+    font-family : NanumGothicFont;
+    src: url('NanumGothic.ttf');
+}
+@font-face {
+    font-family : NanumGothicFont;
+    src: url('NanumGothicExtraBold.ttf');
+    font-weight: bold;
+}
+body {
+    font-family: NanumGothicFont;
+}
+.head {
+    padding: 10px 10px 0;
+    height: 130px;
+    background-color: cadetblue;
+}
+.imgbox {
+    position: absolute;
+    height : 50px;
+    width: 50px;
+    right: 150px;
+    top: 0px;
+}
+a:link, a:visited {
+    text-decoration: none;
+    font-weight: bold;
+}
+a:hover {
+    text-decoration: underline;
+}
+nav {
+    position: absolute;
+    margin-bottom: 10px;
+    overflow: auto;
+}
+nav a {
+    color: white;
+}
+h1 {
+    font-size : 35px;
+    color: white;
+    text-align: center;
+}
+section {
+    align-content: center;
+}
+aside {
+    position: fixed;
+    right: 30px;
+    top: 200px;
+    
+}
+aside a {
+    color: black;
+    margin-left: 20px;
+}
+footer {
+    background-color: cadetblue;
+    height: 60px;
+    width: 100%;
+    padding: 30px 0px 0px 0px;
+    text-align: center;
+}
+article {
+    text-align: center;
+    padding: 50px 0px 100px 0px;
+}
+ul {
+    list-style-type: none;
+}
+.pcview_only {
+    color : darkgray;
+}
